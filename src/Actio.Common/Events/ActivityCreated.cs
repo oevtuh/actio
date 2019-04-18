@@ -18,11 +18,12 @@ namespace Actio.Common.Events
             
         }
 
-        public ActivityCreated(Guid id, Guid userId, string category)
+        public ActivityCreated(Guid id, Guid userId, string category, string name)
         {
             Id = id;
             UserId = userId;
             Category = category;
+            Name = name;
         }
     }
 }
